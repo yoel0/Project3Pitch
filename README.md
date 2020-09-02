@@ -29,6 +29,11 @@ Provide information in the following sections:
 
 
 ----------------------------------------------------------
+### Work Allocation
+##### Who is your Gitmaster? Who will be doing what? 
+
+
+----------------------------------------------------------
 ### Daily Sprints
 ##### (or otherwise general plan for accomplishing tasks, preferably broken down by day)
 
