@@ -1,6 +1,6 @@
 # Project 3 Pitch
 
-##### Fork & Clone this repo.
+## Fork & Clone this repo.
 
 Review the [Project 3 requirements](https://tmdarneille.gitbook.io/sei-ga-sea/11-projects/project-3#project-feedback-evaluation) and check out some [examples](https://tmdarneille.gitbook.io/sei-ga-sea/11-projects/past-projects/project3).
 
@@ -35,4 +35,4 @@ Provide information in the following sections:
 
 ----------------------------------------------------------
 
-Make a PR when you're done!
+## Make a PR when you're done!
