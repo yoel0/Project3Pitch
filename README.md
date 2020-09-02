@@ -8,7 +8,7 @@ Provide information in the following sections:
 
 ----------------------------------------------------------
 ### Project Overview
-##### (Include project idea/concept, project name, team name [if desired], team member roles, elevator pitch)
+##### (Include project idea/concept, project name, who owns git master repo on github, team name [if desired], team member roles, elevator pitch)
 
 
 ----------------------------------------------------------
