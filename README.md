@@ -61,11 +61,11 @@ With voiceS, you can express yourself freely and bring about creative freedom on
 
 ### Models and Schemas
 
-** Models & Schemas **
-(A Model is a IMPLEMENTATION OF A SCHEMA! ye boi.)
-(Because a Schema is the representation of a model)
-(Recipe turned in to dishes)
-(Template to document)
+** Models & Schemas **<br>
+(A Model is a IMPLEMENTATION OF A SCHEMA! ye boi.)<br>
+(Because a Schema is the representation of a model)<br>
+(Recipe turned in to dishes)<br>
+(Template to document)<br>
 #FireSquad.
 
 User
