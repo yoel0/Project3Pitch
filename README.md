@@ -24,8 +24,8 @@ Provide information in the following sections:
 
 ## Who owns git Master repo on github ❥
 
-- Yoel Morad<br>
-  [Yoel's gitHub](https://github.com/yoel0)
+- Channee Math<br>
+  > [Channee's gitHub](https://github.com/chamon562)
 
 ## Team Name ❥
 
@@ -34,11 +34,11 @@ Provide information in the following sections:
 
 ## Team Member Roles ❥
 
-- gitMaster / FrontEnd / BackEnd
+- FrontEnd / BackEnd
 
   > Yoel "Sugar Honey Bunny" Morad<br> > [Yoel's gitHub](https://github.com/yoel0)
 
-- Organizer / FrontEnd / BackEnd
+- gitMaster / FrontEnd / BackEnd
 
   > Channee "Right Hand" Math<br> > [Channee's gitHub](https://github.com/chamon562)
 
@@ -68,34 +68,48 @@ With voiceS, you can express yourself freely and bring about creative freedom on
 (Template to document)<br>
 #FireSquad.
 
-User
+<!-- back end stuff -->
 
-- Category
-- Name
-- Email
-- Password
-- Publications []
+userSchema
 
-Publication
+<!-- parent -->
 
-- User
-- Category
-- Name (of Publication)
-- Content
-- Comments []
-- Reactions []
+- artistType: Array,
+- name: String,
+- email: String,
+- password: String,
+- post: [postSchema],
+- bio: Text,
+- birthday: Date,
+- profilePic: String,
+- content: Array
 
-Comment
+postSchema
 
-- User
-- Content
-- Publication
+<!-- child -->
 
-Reaction (Stretch but a really needed stretch for the honey effect)
+- user: String,
+- category: String,
+- title: String,
+- content: String,
+- textContent: Text,(specifically for long post)
+- comments: [commentSchema]
+- reactions: [reactionSchema]
 
-- User
-- Type (of Reaction)
-- Publication
+commentSchema
+
+<!-- child -->
+
+- user: Array
+- content: Text,
+- reactions: [reactionSchema]
+
+<!-- reaction the child of comments and post define from the bottom up -->
+
+reactionSchema (Stretch but a really needed stretch for the honey effect)
+
+- user: Array (grab by user id and then display the user name)
+- type: Array (of Reaction, setting it to Array can have how many display at once)
 
 ---
 
@@ -153,11 +167,11 @@ Reaction (Stretch but a really needed stretch for the honey effect)
 
 ##### Who is your Gitmaster? Who will be doing what?
 
-- gitMaster / FrontEnd / BackEnd
+- FrontEnd / BackEnd
 
   > Yoel "Sugar Honey Bunny" Morad<br> > [Yoel's gitHub](https://github.com/yoel0)
 
-- Organizer / FrontEnd / BackEnd
+- gitMaster / FrontEnd / BackEnd
 
   > Channee "Right Hand" Math<br> > [Channee's gitHub](https://github.com/chamon562)
 
